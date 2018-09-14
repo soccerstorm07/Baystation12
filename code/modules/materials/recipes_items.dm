@@ -24,6 +24,14 @@
 	on_floor = 1
 	send_material_data = 1
 
+/datum/stack_recipe/coin
+	title = "coin"
+	result_type = /obj/item/weapon/material/coin
+	req_amount = 2
+	one_per_turf = 1
+	on_floor = 1
+	send_material_data = 1
+
 /datum/stack_recipe/ring
 	title = "ring"
 	result_type = /obj/item/clothing/ring/material
@@ -101,6 +109,18 @@
 /datum/stack_recipe/light_small
 	title = "small light fixture frame"
 	result_type = /obj/item/frame/light/small
+	difficulty = 2
+
+/datum/stack_recipe/light_switch
+	title = "light switch"
+	result_type = /obj/item/frame/light_switch
+	req_amount = 1
+	difficulty = 2
+
+/datum/stack_recipe/light_switch/windowtint
+	title = "window tint switch"
+	result_type = /obj/item/frame/light_switch/windowtint
+	req_amount = 1
 	difficulty = 2
 
 /datum/stack_recipe/apc
